@@ -1,0 +1,8 @@
+package persona;
+
+public class PruebaPersona {
+	public static void main(String[] args) {
+		Persona persona1 = new Persona ("Miguel Ángel", "Conde Diaz", "38678765Q",1976, "España");
+		Persona persona2 = new Persona ("Daniel", "Diaz Perez", "28898765M", 1990, "Peru");		
+	}
+}

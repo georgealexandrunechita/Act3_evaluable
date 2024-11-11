@@ -1,0 +1,19 @@
+package via_lactea;
+
+public class via_lactea {
+	private String nombre = null;
+	private double masa= 0.0; 
+	private double volumen= 0.0;
+	private int kilometros= 0;
+	private EstadoElementos tipo; 
+    private boolean observable = false;
+    private boolean exterior = false;
+	
+    public enum EstadoElementos {
+    	LIQUIDO, TERRESTRE, GASEOSO
+    }
+    public via_lactea (String nombre, double masa, double volumen, int kilometros, EstadoElementos tipo, boolean observable, boolean exterior)´
+    this
+    
+    }
+}

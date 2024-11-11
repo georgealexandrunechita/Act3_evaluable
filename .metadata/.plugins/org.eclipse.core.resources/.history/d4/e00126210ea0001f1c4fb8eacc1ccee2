@@ -1,0 +1,25 @@
+package persona;
+
+public class Persona {
+	private String nombre;
+	private String apellidos;
+	private String dni;
+	private int anyo_nacimiento;
+	
+public Persona (String nombre, String apellidos, String dni, int anyo_nacimiento) {
+	this.nombre = nombre;
+	this.apellidos = apellidos;
+	this.dni = dni;
+	this.anyo_nacimiento = anyo_nacimiento;
+	imprimirXPantalla();
+	
+   }
+//Vamos a crear el metodo imprimir por pantalla
+public void imprimirXPantalla() {
+	System.out.println("Persona: ");
+	System.out.println("Nombre: " + nombre);
+	System.out.println("DNI: " + dni);
+	System.out.println("Anyo de Nacimiento: " + anyo_nacimiento);
+
+}
+}
